@@ -286,6 +286,7 @@ overflow: hidden;
     grid-row: 1/2;
     opacity: 0;
     pointer-events: none;
+    display: none;
 }
 
 
@@ -293,6 +294,7 @@ overflow: hidden;
     pointer-events: unset;
     opacity: 1;
     transition: opacity 1.5s ease-in-out;
+    display: flex;
 }
 
 .testimony__img{
